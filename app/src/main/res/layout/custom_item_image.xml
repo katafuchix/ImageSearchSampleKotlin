@@ -1,0 +1,23 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <import type="android.view.View"/>
+        <import type="com.example.imagesearchsample.common.SafeUnbox"/>
+
+        <variable name="showNew" type="Boolean"/>
+        <variable name="showNow" type="Boolean"/>
+
+    </data>
+
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+
+        <!-- サイズはプログラムで指定 -->
+        <androidx.appcompat.widget.AppCompatImageView android:id="@+id/image" android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:scaleType="fitCenter"
+            />
+
+    </FrameLayout>
+
+</layout>
